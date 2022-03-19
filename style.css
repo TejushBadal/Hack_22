@@ -1,3 +1,4 @@
+/*used for profile cards*/
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
@@ -5,6 +6,7 @@
     text-align: center;
   }
   
+/*used in title cards*/
   .title {
     color: grey;
     font-size: 18px;
