@@ -1,55 +1,86 @@
 <!DOCTYPE html>
 <html lang = "en"> 
     <head>
-        <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>"Welcome to our blog"</title>
+        <link rel = "stylesheet" href = "style.css"/>
 
         <style>
-       
-body {background-color: peachpuff;}
-
-        </style>
+            body {background-color: peachpuff;}
+            </style>
     </head> 
+    
+<h1>HTML geniuses</h1>
+
     <body> 
-        <div class ="myDiv">
-            <div class="scrollmenu">
-                <center>
-                <a href="home.html">Home</a>
-                <a href="blog.html">Write a Blog</a>
-                <a href="user.html">User</a>
-                </center>
-              </div>
-     <h1>Make Your Own Blog</h1>
-     <p>talk about your interests and share on our platform!</p>
-     </div>
-     <div class = "formAlign">
-<form >
-    <br><br>
-    <label for="titleName">Name Your Blog:</label><br>
-    <input type = "text" id = "titleName" name = "titleName" placeholder = "Title Name" style = "width: 300px;" ><br>
-</form>
-<form>
-    <br>
-    <label for="blogText">Get Creative!</label><br>
-    <textarea id="blogText" value="blogText"  name="blogText" rows="10" cols="80">
-        </textarea><br><br>
-</form>
-</div>
-<div class = "publishAlign">
-<button type = "submit"> Publish </button>
-</div>
-<!-- SIDE BAR STUFF-->
-<div class = "sidenav">
-    <a align = "center" href="#">Tags </a>
-    <a href="#">Sports</a>
-    <a href="#">Cars</a>
-    <a href="#">Food</a>
-    <a href="#">Health</a>
-    <a href="#">Photography</a>
-    <a href="#">Academics</a>
-</div>
+       
+        <div class="scrollmenu">
+            <center>
+            <a href="home.html">Home</a>
+            <a href="blog.html">Write a Blog</a>
+            <a href="user.html">User</a>
+            </center>
+          </div>     
 
+        <center>
+        <h1>Pick a blog you would like to read </h1>
+        <h2>When you are passionate about something, you want to share it with the world.</h2> 
+        </center> 
+        &nbsp;  &nbsp; &nbsp;  &nbsp;      
+        
+        <hr size = "3" width = 50% > 
+  
 
+        <p align = "left">
+        <span class="detail"><a href = "home.html">All</span></a> &nbsp;  &nbsp;       
+        <span class="detail"><a href = "home.html">Cars</span></a> &nbsp;  &nbsp; 
+        <span class="detail"><a href = "home.html">Photography</span></a> &nbsp;  &nbsp; 
+        <span class="detail"><a href = "home.html">Movie reviews</span></a> &nbsp;  &nbsp;
+        <span class="detail"><a href = "home.html">Food recipes</span></a> &nbsp;  &nbsp;
+        </p>
+    <hr size = "3" width = 100% >
 
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="burger.jpg" alt="Burger" style = "width:150px; height:150px;">
+                <h3>Food recipes</h3>  
+                <h3>5 min read</h3>  <br><br>
+            <div><h3>If you're tired of your local burger joint, look no further and click on this</h3> <br><br> </div> 
+            <div><button><h3> <a style="color:white" href="https://www.nytimes.com/2021/07/19/dining/better-burger-recipe.html"> Read full blog </a> </h3></button><br><br><br><br> </div>
+          </div>
+          </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="Spiderman.jpeg" alt="Burger" style="width:150px; height:150px;">
+                <h3>Was no way home overhyped?</h3>
+                <h3>7 min read</h3>  <br><br>
+            <div><h3>Fanatics say the move was overhyped and didn't deserve the attention it got</h3> <br><br> </div> 
+            <div><button><h3> <a style="color:white" href="https://collider.com/spider-man-no-way-home-blooper-reel-tom-holland/"> Read full blog </a> </h3></button><br><br><br><br> </div>
+          </div>
+          </div>  
+
+          <div class="column">
+            <div class="card">
+                <img src="camera.jpeg" alt="Burger" style="width:150px; height:150px;">
+                <h3>Canon EOS 77d vs 70d</h3> 
+                <h3>12 min read</h3>  <br><br>
+            <div><h3>The more expensive the camera doesn't always mean better pictures</h3> <br><br> </div> 
+            <div><button><h3> <a style="color:white" href="https://cameradecision.com/compare/Canon-EOS-77D-vs-Canon-EOS-80D"> Read full blog </a> </h3></button><br><br><br><br> </div>
+          </div>
+          </div> 
+        
+          <div class="column">
+            <div class="card">
+                <img src="cobalt.jpg" alt="Cobalt" style="width:150px; height:150px;">
+                <h3>The 2010 Cobalt worth it?</h3>
+                <h3>16 min read</h3>  <br><br>
+            <div><h3>Cobalt SS turbocharges vs supercharged. Chip shortage and the used car market</h3> <br><br> </div> 
+            
+            <div><button><h3> <a style="color:white" href="https://carbuzz.com/features/the-chevy-cobalt-ss-is-a-car-enthusiasts-budget-dream-car"> Read full blog </a> </h3></button><br><br><br><br> </div>
+          </div>
+        </div>
+    </div>
     </body> 
-</html>
+</html>  
