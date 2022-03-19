@@ -75,13 +75,6 @@ body {
   color: white;
 }
 
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-}
-
 /* Float four columns side by side */
 .column {
   float: left;
