@@ -12,6 +12,7 @@ Our webpage has been built from ground up and comprises of 3 main web pages:
 
 The home page allows you to navigate within different genres of blogs and gives you a quick summary of what each blog entails. 
 
-The user page allows the blog writer to enter information such as their name, current occupation and the university/collge they graudated from 
+The user page allows the blog writer to enter information such as their name, current occupation and the university/collge they graudated from. 
 
-The 
+The write a blog page, allows you to enter the title of your blog page and write your blog. 
+
