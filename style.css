@@ -1,3 +1,65 @@
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+.myDiv {
+  background-image: url("backgroundImage.png");
+  text-align: center;
+  margin: -10px;
+  padding: 3px;
+}
+
+        .formAlign{
+            position: fixed;
+  left:300px;
+        }
+    .publishAlign{
+        position: fixed;
+    right: 525px;
+    top: 450px;
+    }
+
+    .sidenav {
+    height: 100%; 
+    width: 200px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 50; 
+    right: 0;
+    background-color: lightgray; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .main {
+    margin-left: 160px;
+    padding: 0px 10px;
+  }
+
 * {
   box-sizing: border-box;
 }
@@ -46,7 +108,14 @@ body {
   }
 }
 
-/*used for profile cards*/
+/* Style the counter cards
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}*/
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
@@ -54,7 +123,6 @@ body {
     text-align: center;
   }
   
-/*used in title cards*/
   .title {
     color: grey;
     font-size: 18px;
